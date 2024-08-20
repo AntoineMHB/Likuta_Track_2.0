@@ -19,6 +19,9 @@ export default {
         customDarkGray: '#CCCCCC',
         sortGray: '#D9D9D9',
         notificationPink: '#FF5787',
+        backgroundColor:'#FAF9FF',
+        expenseRedColor: '#f70a0a',
+        buttonColor: '#e8e8e8'
       }
     },
   },

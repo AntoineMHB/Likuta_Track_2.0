@@ -1,9 +1,12 @@
+import { Login } from "../components/Login";
 
 
-const Logout = () => {
+function Logout() {
   return (
-    <div>Logout</div>
+    <div>
+      <Login/>
+    </div>
   )
 }
 
-export default Logout
+export default Logout;

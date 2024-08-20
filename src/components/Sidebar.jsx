@@ -1,7 +1,7 @@
 
 
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 //ICONS
 import { CiSettings } from "react-icons/ci";
@@ -26,12 +26,12 @@ const Sidebar = () => {
 ]
 
   return (
-  <div className="w-[279px] md:w-56 fixed left-0 top-0 z-10 h-screen border-r pt-8 px-4 bg-purple rounded-tr-[48px] rounded-br-[48px]">
+  <div className="w-20 md:w-56 fixed left-0 top-0 z-10 h-screen border-r pt-8 px-4 bg-purple rounded-tr-[48px] rounded-br-[48px]">
     {/* logo */} 
-    <div className="mt-[5px] ml-[59px] mb-[35px] font-bold text-white">LIKUTA Track</div>
+    <div className="mt-[5px] ml-[2px] mb-[35px] font-bold text-white">LIKUTA Track</div>
 
     {/* Navigation Links */}
-    <ul className="mt-2 ml-[59px]">
+    <ul className="mt-2 ml-[10px]">
         {
            SIDEBAR_LINKS.map((link, index)=>(
             <li 

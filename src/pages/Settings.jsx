@@ -1,8 +1,11 @@
+import { SignUp } from "@/components/SignUp"
 
 
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <div>
+      <SignUp/>
+    </div>
   )
 }
 
