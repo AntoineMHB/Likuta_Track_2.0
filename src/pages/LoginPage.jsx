@@ -1,12 +1,13 @@
-import Login from "@/components/Login"
+/* eslint-disable react/prop-types */
+import Login from "@/components/Login";
 
 
-const LoginPage = () => {
+const LoginPage = ({ setIsAuthenticated }) => {
   return (
     <div>
-        <Login/>
+        <Login setIsAuthenticated={setIsAuthenticated} />
     </div>
-  )
-}
+  );
+};
 
-export default LoginPage
+export default LoginPage;
